@@ -1,0 +1,5 @@
+DBUSER=developmenttes_stripe
+DBPASSWORD='gF1LC?lAA%c2'
+DBNAME=developmenttes_stripe
+DBHOST=localhost
+STRIPE_SECRET_KEY=sk_test_51QIr9nExmAZQgYMTsXsrgQ4VQKCFelST6QiSM0YhqlokIABT0oDNmHrXThfDFHbV2kpCxw1zMxDz9UNk7w1IP6kh00Ch1mtalk

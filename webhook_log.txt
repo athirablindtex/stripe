@@ -1,0 +1,3325 @@
+2024-11-11 12:46:52 - {
+  "id": "evt_3QJx14ExmAZQgYMT1A9TTYwB",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731329212,
+  "data": {
+    "object": {
+      "id": "pi_3QJx14ExmAZQgYMT15RTAfJB",
+      "object": "payment_intent",
+      "amount": 400000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJx14ExmAZQgYMT15RTAfJB_secret_mNcY3oSDNpEXPUI2fxPul6ZAt",
+      "confirmation_method": "automatic",
+      "created": 1731329210,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QJx14ExmAZQgYMT1O3wBnMQ",
+        "code": "card_declined",
+        "decline_code": "insufficient_funds",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card has insufficient funds.",
+        "payment_method": {
+          "id": "pm_1QJx16ExmAZQgYMTR29aT4B2",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "33333",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "admin",
+            "phone": "1111"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2025,
+            "fingerprint": "ZKhcL9Soz9RucMnV",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "9995",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731329212,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QJx14ExmAZQgYMT1O3wBnMQ",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_LJhlV3y9COxc0Z",
+    "idempotency_key": "7d6faafd-3abb-4efa-a1b5-0d1c7168309d"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-11 12:46:52 - Payment status updated successfully for transaction_id: pi_3QJx14ExmAZQgYMT15RTAfJB
+2024-11-11 12:48:34 - {
+  "id": "evt_3QJx2jExmAZQgYMT0vceFvFy",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731329314,
+  "data": {
+    "object": {
+      "id": "pi_3QJx2jExmAZQgYMT0XeNlYmX",
+      "object": "payment_intent",
+      "amount": 400000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJx2jExmAZQgYMT0XeNlYmX_secret_dehqLS0cxo3wIXzGTaDXwes3R",
+      "confirmation_method": "automatic",
+      "created": 1731329313,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QJx2jExmAZQgYMT0A7tYo3w",
+        "code": "card_declined",
+        "decline_code": "stolen_card",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1QJx2kExmAZQgYMTx2ezCfZ9",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "11111",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "admin",
+            "phone": "1111"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2025,
+            "fingerprint": "HC6CKskxQnPPQ5V9",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "9979",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731329314,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QJx2jExmAZQgYMT0A7tYo3w",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_QDcH2p7YVLcmPX",
+    "idempotency_key": "3ed68af7-3dde-4e6c-8e46-1a309af1ee3d"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-11 12:48:34 - Payment status updated successfully for transaction_id: pi_3QJx2jExmAZQgYMT0XeNlYmX
+2024-11-11 12:49:16 - {
+  "id": "evt_3QJx3PExmAZQgYMT05dnx3OX",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731329356,
+  "data": {
+    "object": {
+      "id": "pi_3QJx3PExmAZQgYMT0BPLtHxY",
+      "object": "payment_intent",
+      "amount": 400000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 400000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJx3PExmAZQgYMT0BPLtHxY_secret_rFaJVgkqf48vCnqCuelkIekF6",
+      "confirmation_method": "automatic",
+      "created": 1731329355,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJx3PExmAZQgYMT0uloQsSQ",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJx3QExmAZQgYMT9D7n03w3",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_ukiSyziZbVQvsx",
+    "idempotency_key": "1c454375-e020-4791-8ac6-76be8f189fbc"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 12:49:16 - Payment status updated successfully for transaction_id: pi_3QJx3PExmAZQgYMT0BPLtHxY
+2024-11-11 13:05:07 - {
+  "id": "evt_3QJxIkExmAZQgYMT0U7CY8Pd",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330307,
+  "data": {
+    "object": {
+      "id": "pi_3QJxIkExmAZQgYMT0CizGs16",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxIkExmAZQgYMT0CizGs16_secret_gCSQINIMs6KR0kupFZCGxQYtp",
+      "confirmation_method": "automatic",
+      "created": 1731330306,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxIkExmAZQgYMT0qAB9ZT0",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxIlExmAZQgYMTH77iRW4H",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_BiSzPeUd6zpPWp",
+    "idempotency_key": "9ea8ff15-8dd2-4529-b92e-43d31d9574d0"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:05:07 - Payment status updated successfully for transaction_id: pi_3QJxIkExmAZQgYMT0CizGs16
+2024-11-11 13:09:34 - {
+  "id": "evt_3QJxN3ExmAZQgYMT0mmRBtoh",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330575,
+  "data": {
+    "object": {
+      "id": "pi_3QJxN3ExmAZQgYMT0TOq8W4P",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxN3ExmAZQgYMT0TOq8W4P_secret_w490dFfKfqcCHmIMSOlyIwS0P",
+      "confirmation_method": "automatic",
+      "created": 1731330573,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxN3ExmAZQgYMT0m0YdOnn",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxN4ExmAZQgYMT9V5PLqB9",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_8QDSyWMfXwFIqZ",
+    "idempotency_key": "943f1be6-877e-40f9-93a4-48bcccebab03"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:09:34 - Payment status updated successfully for transaction_id: pi_3QJxN3ExmAZQgYMT0TOq8W4P
+2024-11-11 13:10:29 - {
+  "id": "evt_3QJxNwExmAZQgYMT0SLoB7hj",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330630,
+  "data": {
+    "object": {
+      "id": "pi_3QJxNwExmAZQgYMT0jwZRilU",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxNwExmAZQgYMT0jwZRilU_secret_Uh32M4ei3qJvUulMn7XXOVj7S",
+      "confirmation_method": "automatic",
+      "created": 1731330628,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxNwExmAZQgYMT0wYr6P1G",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxNxExmAZQgYMTJ4uuQuKN",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_65rKX9DoEeJ0Tq",
+    "idempotency_key": "6a76ea23-0df2-4466-aa6f-510789d49f18"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:10:29 - Payment status updated successfully for transaction_id: pi_3QJxNwExmAZQgYMT0jwZRilU
+2024-11-11 13:10:32 - {
+  "id": "evt_3QJxNzExmAZQgYMT17n3IYc6",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330633,
+  "data": {
+    "object": {
+      "id": "pi_3QJxNzExmAZQgYMT1FlswIIR",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxNzExmAZQgYMT1FlswIIR_secret_QQrCUQpn7bpiPhpao0mmQIR3U",
+      "confirmation_method": "automatic",
+      "created": 1731330631,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxNzExmAZQgYMT1wk2TP6s",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxO0ExmAZQgYMT0VirpCL1",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_ht62IkKoTpmvfq",
+    "idempotency_key": "5433cc5d-1790-458d-b26a-1335721758e0"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:10:32 - Payment status updated successfully for transaction_id: pi_3QJxNzExmAZQgYMT1FlswIIR
+2024-11-11 13:11:33 - {
+  "id": "evt_3QJxOzExmAZQgYMT0rEJtH9m",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330694,
+  "data": {
+    "object": {
+      "id": "pi_3QJxOzExmAZQgYMT0YI378Ot",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxOzExmAZQgYMT0YI378Ot_secret_YXhQkZ4PxwYUQs5draJRY5OT1",
+      "confirmation_method": "automatic",
+      "created": 1731330693,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxOzExmAZQgYMT0W0uNmBS",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxP0ExmAZQgYMTEoVvj6Dp",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_RYPWti5A8ejnb2",
+    "idempotency_key": "9fcd41a1-378a-4ec3-a415-10c68f888b41"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:11:33 - Payment status updated successfully for transaction_id: pi_3QJxOzExmAZQgYMT0YI378Ot
+2024-11-11 13:11:43 - {
+  "id": "evt_3QJxP8ExmAZQgYMT1rX9GLTv",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330704,
+  "data": {
+    "object": {
+      "id": "pi_3QJxP8ExmAZQgYMT1kBzMwFU",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxP8ExmAZQgYMT1kBzMwFU_secret_4ojIMZFYxMxWu9NXEcMw5Udn3",
+      "confirmation_method": "automatic",
+      "created": 1731330702,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxP8ExmAZQgYMT1b3xhtEw",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxP9ExmAZQgYMTDwlcU8Eq",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_984U0kxPHIhdQM",
+    "idempotency_key": "3fac7fa6-fb6b-4277-8658-365787696ad4"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:11:43 - Payment status updated successfully for transaction_id: pi_3QJxP8ExmAZQgYMT1kBzMwFU
+2024-11-11 13:12:06 - {
+  "id": "evt_3QJxPVExmAZQgYMT0Z1DgPMi",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330727,
+  "data": {
+    "object": {
+      "id": "pi_3QJxPVExmAZQgYMT0ojjBOna",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxPVExmAZQgYMT0ojjBOna_secret_GalNWp9GfpNQa9gu8fqdE8avL",
+      "confirmation_method": "automatic",
+      "created": 1731330725,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxPVExmAZQgYMT0REJfooB",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxPWExmAZQgYMTdxclw3xn",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_lHAhlaqc3RTYT7",
+    "idempotency_key": "c8780f81-e5f0-46d0-970e-53be58c1d0c1"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:12:06 - Payment status updated successfully for transaction_id: pi_3QJxPVExmAZQgYMT0ojjBOna
+2024-11-11 13:12:16 - {
+  "id": "evt_3QJxPgExmAZQgYMT1wA4YaGZ",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330737,
+  "data": {
+    "object": {
+      "id": "pi_3QJxPgExmAZQgYMT1t0aHt3B",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxPgExmAZQgYMT1t0aHt3B_secret_CqayNTZua98o4Dbgwbmcvw2my",
+      "confirmation_method": "automatic",
+      "created": 1731330736,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxPgExmAZQgYMT1Lu6K29A",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxPhExmAZQgYMTQgviqE9R",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_Is3VWDMnUrR0rk",
+    "idempotency_key": "273aa067-32df-48e4-a975-1a2220b55488"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:12:17 - Payment status updated successfully for transaction_id: pi_3QJxPgExmAZQgYMT1t0aHt3B
+2024-11-11 13:13:56 - {
+  "id": "evt_3QJxRFExmAZQgYMT1sFCX5Eg",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330836,
+  "data": {
+    "object": {
+      "id": "pi_3QJxRFExmAZQgYMT1TxOc5Pz",
+      "object": "payment_intent",
+      "amount": 20000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 20000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxRFExmAZQgYMT1TxOc5Pz_secret_q5wMxvZeI1ueKHWVGJEzxTdV5",
+      "confirmation_method": "automatic",
+      "created": 1731330833,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxRFExmAZQgYMT1HrIyYGp",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxRIExmAZQgYMTMcy2CE79",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_1nr2XUasIzIZdL",
+    "idempotency_key": "a57337f6-b32e-4e3f-8318-fe21838418ef"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:13:56 - Payment status updated successfully for transaction_id: pi_3QJxRFExmAZQgYMT1TxOc5Pz
+2024-11-11 13:15:54 - {
+  "id": "evt_3QJxTBExmAZQgYMT0dFesPgY",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330955,
+  "data": {
+    "object": {
+      "id": "pi_3QJxTBExmAZQgYMT0yEoBZ6f",
+      "object": "payment_intent",
+      "amount": 20000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxTBExmAZQgYMT0yEoBZ6f_secret_FLGLQLHykgWNKAVns4RvhvPTS",
+      "confirmation_method": "automatic",
+      "created": 1731330953,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QJxTBExmAZQgYMT0UOKoTqU",
+        "code": "card_declined",
+        "decline_code": "generic_decline",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1QJxTCExmAZQgYMT8sa90trd",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "43312",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "admin",
+            "phone": "12222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2025,
+            "fingerprint": "T57whN0FwTNIQMIX",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0002",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731330954,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QJxTBExmAZQgYMT0UOKoTqU",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_t5z0J3g1IIzf6w",
+    "idempotency_key": "f6cbadb2-1580-4da4-a821-6bdbaf978d06"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-11 13:15:54 - Payment status updated successfully for transaction_id: pi_3QJxTBExmAZQgYMT0yEoBZ6f
+2024-11-11 13:15:56 - {
+  "id": "evt_3QJxTEExmAZQgYMT0ZtPVjtF",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731330957,
+  "data": {
+    "object": {
+      "id": "pi_3QJxTEExmAZQgYMT0kk1LaiS",
+      "object": "payment_intent",
+      "amount": 20000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxTEExmAZQgYMT0kk1LaiS_secret_BNheBwcSjCxDEXn8uNwipiO1v",
+      "confirmation_method": "automatic",
+      "created": 1731330956,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QJxTEExmAZQgYMT0hiU7acH",
+        "code": "card_declined",
+        "decline_code": "generic_decline",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1QJxTEExmAZQgYMTh4VgiiLc",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "43312",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "admin",
+            "phone": "12222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2025,
+            "fingerprint": "T57whN0FwTNIQMIX",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0002",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731330956,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QJxTEExmAZQgYMT0hiU7acH",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_9xlEgfge1YI2lM",
+    "idempotency_key": "86301079-ad12-478f-8bc7-448ecc548b91"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-11 13:15:56 - Payment status updated successfully for transaction_id: pi_3QJxTEExmAZQgYMT0kk1LaiS
+2024-11-11 13:16:49 - {
+  "id": "evt_3QJxU4ExmAZQgYMT1YPOM05E",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731331010,
+  "data": {
+    "object": {
+      "id": "pi_3QJxU4ExmAZQgYMT1gjrWTbE",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxU4ExmAZQgYMT1gjrWTbE_secret_WYQGuWwISeBhqS41pqvjR5QIw",
+      "confirmation_method": "automatic",
+      "created": 1731331008,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QJxU4ExmAZQgYMT1iE9IMAE",
+        "code": "card_declined",
+        "decline_code": "generic_decline",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1QJxU5ExmAZQgYMTh23oolJ3",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "11111",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "admin",
+            "phone": "1222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2024,
+            "fingerprint": "T57whN0FwTNIQMIX",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0002",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731331009,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QJxU4ExmAZQgYMT1iE9IMAE",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_k0zKSOXPEfZE1m",
+    "idempotency_key": "3154ca96-951f-4f5d-a0f4-80b1f9f2cbbb"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-11 13:16:49 - Payment status updated successfully for transaction_id: pi_3QJxU4ExmAZQgYMT1gjrWTbE
+2024-11-11 13:17:38 - {
+  "id": "evt_3QJxUrExmAZQgYMT14E1JSKg",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731331059,
+  "data": {
+    "object": {
+      "id": "pi_3QJxUrExmAZQgYMT1U07ZTNK",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxUrExmAZQgYMT1U07ZTNK_secret_eA3VzzAYsyyQnfFaYavhfjNuv",
+      "confirmation_method": "automatic",
+      "created": 1731331057,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxUrExmAZQgYMT1SwLgK4R",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxUsExmAZQgYMTk1HAqnlx",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_MEfSdYyfbRLIXl",
+    "idempotency_key": "08405fc5-0b18-4438-b4c5-b7fac83b9392"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:17:39 - Payment status updated successfully for transaction_id: pi_3QJxUrExmAZQgYMT1U07ZTNK
+2024-11-11 13:22:24 - {
+  "id": "evt_3QJxZTExmAZQgYMT0L00Q4PL",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731331344,
+  "data": {
+    "object": {
+      "id": "pi_3QJxZTExmAZQgYMT0XhoVx5b",
+      "object": "payment_intent",
+      "amount": 4057,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 4057,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxZTExmAZQgYMT0XhoVx5b_secret_1LKWvSv9ddT717QsoGlU8O1QP",
+      "confirmation_method": "automatic",
+      "created": 1731331343,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxZTExmAZQgYMT0Yo6C9XX",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxZUExmAZQgYMTc3flPELF",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_0Rhh1wsTztT7TS",
+    "idempotency_key": "dac80261-65d7-40da-b22e-b330e0ea6cf7"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:22:24 - Payment status updated successfully for transaction_id: pi_3QJxZTExmAZQgYMT0XhoVx5b
+2024-11-11 13:22:26 - {
+  "id": "evt_3QJxZVExmAZQgYMT0lhWZZZJ",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731331346,
+  "data": {
+    "object": {
+      "id": "pi_3QJxZVExmAZQgYMT0ZFzGptr",
+      "object": "payment_intent",
+      "amount": 4057,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 4057,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QJxZVExmAZQgYMT0ZFzGptr_secret_glBXLzIi3gEC7iXq1vJ7r9dxx",
+      "confirmation_method": "automatic",
+      "created": 1731331345,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QJxZVExmAZQgYMT0qcslPqW",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QJxZWExmAZQgYMTwWWaIJp7",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_Hd11tGg5q4BsE2",
+    "idempotency_key": "412bf611-1e7d-4d5f-a8ed-00511d18a29d"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 13:22:26 - Payment status updated successfully for transaction_id: pi_3QJxZVExmAZQgYMT0ZFzGptr
+2024-11-11 17:06:11 - {
+  "id": "evt_3QK142ExmAZQgYMT1FY4p9c0",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731344771,
+  "data": {
+    "object": {
+      "id": "pi_3QK142ExmAZQgYMT1CJgM4iE",
+      "object": "payment_intent",
+      "amount": 60000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 60000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QK142ExmAZQgYMT1CJgM4iE_secret_6ICzsINwL6lHymIeXMVHZA7zV",
+      "confirmation_method": "automatic",
+      "created": 1731344770,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QK142ExmAZQgYMT1HOwFU34",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QK143ExmAZQgYMTmRglvukg",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_IoeYNq9YzNFmgO",
+    "idempotency_key": "334dc4a1-3633-4af6-b0f6-f64e19717c1c"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 17:06:11 - Payment status updated successfully for transaction_id: pi_3QK142ExmAZQgYMT1CJgM4iE
+2024-11-11 17:06:13 - {
+  "id": "evt_3QK144ExmAZQgYMT0MYWH78i",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731344774,
+  "data": {
+    "object": {
+      "id": "pi_3QK144ExmAZQgYMT0VEfqsB7",
+      "object": "payment_intent",
+      "amount": 60000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 60000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QK144ExmAZQgYMT0VEfqsB7_secret_4DHeoueyVQcSXoryPR6HFu5h4",
+      "confirmation_method": "automatic",
+      "created": 1731344772,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QK144ExmAZQgYMT0BkTt6tX",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QK146ExmAZQgYMTApkdeg6S",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_8UoeHgd4loEYeh",
+    "idempotency_key": "2f66bf35-9523-48e8-aacc-034297985c8e"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 17:06:13 - Payment status updated successfully for transaction_id: pi_3QK144ExmAZQgYMT0VEfqsB7
+2024-11-11 17:07:22 - {
+  "id": "evt_3QK15BExmAZQgYMT1pHaS3WX",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731344843,
+  "data": {
+    "object": {
+      "id": "pi_3QK15BExmAZQgYMT1ybnZB1m",
+      "object": "payment_intent",
+      "amount": 60000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 60000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QK15BExmAZQgYMT1ybnZB1m_secret_2uI8lmqdSv2KCR5acNmjydBnL",
+      "confirmation_method": "automatic",
+      "created": 1731344841,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QK15BExmAZQgYMT12cwYRgy",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QK15CExmAZQgYMTGoLlTYxC",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_av1g1PVPSrLHDR",
+    "idempotency_key": "e5db2231-c55b-4477-a894-e23bcb02ea84"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 17:07:22 - Payment status updated successfully for transaction_id: pi_3QK15BExmAZQgYMT1ybnZB1m
+2024-11-11 17:07:25 - {
+  "id": "evt_3QK15EExmAZQgYMT11vvDGy8",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731344845,
+  "data": {
+    "object": {
+      "id": "pi_3QK15EExmAZQgYMT1vUMHvON",
+      "object": "payment_intent",
+      "amount": 60000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 60000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QK15EExmAZQgYMT1vUMHvON_secret_prM5ewbSlZH986n9vATlTexOX",
+      "confirmation_method": "automatic",
+      "created": 1731344844,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QK15EExmAZQgYMT1apJHJei",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QK15FExmAZQgYMT5D6gVUre",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_Yp1XXiumZHsDBH",
+    "idempotency_key": "79b687f5-7901-48d1-9a00-299ae4dd28ea"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-11 17:07:25 - Payment status updated successfully for transaction_id: pi_3QK15EExmAZQgYMT1vUMHvON
+2024-11-12 06:09:00 - {
+  "id": "evt_3QKDHaExmAZQgYMT0tCkNeov",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731391740,
+  "data": {
+    "object": {
+      "id": "pi_3QKDHaExmAZQgYMT0kkjpp18",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKDHaExmAZQgYMT0kkjpp18_secret_pkd06gShiLZSS8UTnN3doS52R",
+      "confirmation_method": "automatic",
+      "created": 1731391739,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKDHaExmAZQgYMT0SBnJlrO",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKDHbExmAZQgYMT94BUuUKu",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_QAmbnARsjh07Yn",
+    "idempotency_key": "fb7357bf-a94a-4816-b37c-6e2a3eb46a8b"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 06:09:00 - Payment status updated successfully for transaction_id: pi_3QKDHaExmAZQgYMT0kkjpp18
+2024-11-12 06:10:00 - {
+  "id": "evt_3QKDIZExmAZQgYMT1YFpSAJ3",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731391800,
+  "data": {
+    "object": {
+      "id": "pi_3QKDIZExmAZQgYMT1jxJHdb8",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKDIZExmAZQgYMT1jxJHdb8_secret_mtBFxoRNMLRS4pSrejiulvBgO",
+      "confirmation_method": "automatic",
+      "created": 1731391799,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKDIZExmAZQgYMT1NKfSqrW",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKDIZExmAZQgYMTYuvgrv3j",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_triwr3SzmS65tR",
+    "idempotency_key": "29ed3162-54cd-4509-84de-01e8d6ffeaa1"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 06:10:00 - Payment status updated successfully for transaction_id: pi_3QKDIZExmAZQgYMT1jxJHdb8
+2024-11-12 06:14:42 - {
+  "id": "evt_3QKDN6ExmAZQgYMT07NiwOWy",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731392082,
+  "data": {
+    "object": {
+      "id": "pi_3QKDN6ExmAZQgYMT0TtYAm3c",
+      "object": "payment_intent",
+      "amount": 300000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKDN6ExmAZQgYMT0TtYAm3c_secret_viHisH31tk6f3KNjcoSuxo8CO",
+      "confirmation_method": "automatic",
+      "created": 1731392080,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QKDN6ExmAZQgYMT0vuUHNRI",
+        "code": "card_declined",
+        "decline_code": "generic_decline",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1QKDN7ExmAZQgYMT3dLPpGfw",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "22222",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "athira",
+            "phone": "1222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2026,
+            "fingerprint": "T57whN0FwTNIQMIX",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0002",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731392082,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QKDN6ExmAZQgYMT0vuUHNRI",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_Qp59E6YApVw48L",
+    "idempotency_key": "b0f32287-d2f8-4a28-b563-aa7554165f14"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-12 06:14:42 - Payment status updated successfully for transaction_id: pi_3QKDN6ExmAZQgYMT0TtYAm3c
+2024-11-12 06:20:30 - {
+  "id": "evt_3QKDSiExmAZQgYMT0Kmm8EpX",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731392430,
+  "data": {
+    "object": {
+      "id": "pi_3QKDSiExmAZQgYMT0QdQaCYz",
+      "object": "payment_intent",
+      "amount": 300000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKDSiExmAZQgYMT0QdQaCYz_secret_kuWdyWYyg8DU734046ipgqhJW",
+      "confirmation_method": "automatic",
+      "created": 1731392428,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QKDSiExmAZQgYMT07PRJY9d",
+        "code": "card_declined",
+        "decline_code": "generic_decline",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1QKDSkExmAZQgYMTDUMThPwU",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "22222",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "athira",
+            "phone": "1222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2026,
+            "fingerprint": "T57whN0FwTNIQMIX",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0002",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731392430,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QKDSiExmAZQgYMT07PRJY9d",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_u7x8v56EuVR9Me",
+    "idempotency_key": "c310cdf2-8a22-49fa-83b5-9f80311ea721"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-12 06:20:31 - Payment status updated successfully for transaction_id: pi_3QKDSiExmAZQgYMT0QdQaCYz
+2024-11-12 06:20:46 - {
+  "id": "evt_3QKDSyExmAZQgYMT1lS12QEC",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731392446,
+  "data": {
+    "object": {
+      "id": "pi_3QKDSyExmAZQgYMT15w7MzBf",
+      "object": "payment_intent",
+      "amount": 300000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKDSyExmAZQgYMT15w7MzBf_secret_qXsE3hqvaczdoWk85ksvR3XsH",
+      "confirmation_method": "automatic",
+      "created": 1731392444,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QKDSyExmAZQgYMT1gMokcXI",
+        "code": "card_declined",
+        "decline_code": "card_velocity_exceeded",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined for making repeated attempts too frequently or exceeding its amount limit.",
+        "payment_method": {
+          "id": "pm_1QKDSzExmAZQgYMTruHBNliq",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "22222",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "athira",
+            "phone": "1222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2026,
+            "fingerprint": "LkNZEiYWgUB7uPYi",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "6975",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731392445,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QKDSyExmAZQgYMT1gMokcXI",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_rH6auH7u3gdttz",
+    "idempotency_key": "053b7886-3875-434c-b4ac-2e885bdc32bc"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-12 06:20:46 - Payment status updated successfully for transaction_id: pi_3QKDSyExmAZQgYMT15w7MzBf
+2024-11-12 06:52:44 - {
+  "id": "evt_3QKDxuExmAZQgYMT0I9qSAi7",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731394364,
+  "data": {
+    "object": {
+      "id": "pi_3QKDxuExmAZQgYMT04bfxMrc",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKDxuExmAZQgYMT04bfxMrc_secret_JQkVfvNiAwqtlueU9wToo6v74",
+      "confirmation_method": "automatic",
+      "created": 1731394362,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKDxuExmAZQgYMT009eJ2kG",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKDxvExmAZQgYMTGfOtpCa4",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_U5Gwx4MFvZDLPF",
+    "idempotency_key": "2598ef97-6426-47ca-84ff-d7738045faa1"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 06:52:44 - Payment status updated successfully for transaction_id: pi_3QKDxuExmAZQgYMT04bfxMrc
+2024-11-12 06:53:19 - {
+  "id": "evt_3QKDyTExmAZQgYMT10TmetY5",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731394398,
+  "data": {
+    "object": {
+      "id": "pi_3QKDyTExmAZQgYMT1Hwf3Tvy",
+      "object": "payment_intent",
+      "amount": 70000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKDyTExmAZQgYMT1Hwf3Tvy_secret_YOJwAqGY0o7L39flrLjg3I2be",
+      "confirmation_method": "automatic",
+      "created": 1731394397,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QKDyTExmAZQgYMT11VbqDmZ",
+        "code": "card_declined",
+        "decline_code": "generic_decline",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1QKDyTExmAZQgYMT3JGV6mUw",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "23333",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "admin",
+            "phone": "12222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2026,
+            "fingerprint": "T57whN0FwTNIQMIX",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0002",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731394397,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QKDyTExmAZQgYMT11VbqDmZ",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_CGwSa6t2NNGfj0",
+    "idempotency_key": "0401230f-60b6-4b56-879f-f85d61d82c05"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-12 06:53:19 - Payment status updated successfully for transaction_id: pi_3QKDyTExmAZQgYMT1Hwf3Tvy
+2024-11-12 07:08:18 - {
+  "id": "evt_3QKECyExmAZQgYMT1iRRmYpj",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731395297,
+  "data": {
+    "object": {
+      "id": "pi_3QKECyExmAZQgYMT1xLw8BCU",
+      "object": "payment_intent",
+      "amount": 40000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 40000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKECyExmAZQgYMT1xLw8BCU_secret_7d7MK4q004A2dHw4kRFADsmav",
+      "confirmation_method": "automatic",
+      "created": 1731395296,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKECyExmAZQgYMT1MSG4JZy",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKECzExmAZQgYMT4hz5Jwde",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_v30a8BvaJ9FMPk",
+    "idempotency_key": "9772f66f-a887-488e-acea-fa4839db49cc"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 07:08:18 - Payment status updated successfully for transaction_id: pi_3QKECyExmAZQgYMT1xLw8BCU
+2024-11-12 07:11:07 - {
+  "id": "evt_3QKEFiExmAZQgYMT1SG5vrG3",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731395467,
+  "data": {
+    "object": {
+      "id": "pi_3QKEFiExmAZQgYMT1Zn2kZDg",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKEFiExmAZQgYMT1Zn2kZDg_secret_rcV6CjrXdQVhPWyowm9ahgIAp",
+      "confirmation_method": "automatic",
+      "created": 1731395466,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKEFiExmAZQgYMT1G1lHQ99",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKEFjExmAZQgYMTzLzLqHmQ",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_qf1zRKMsuqfo4P",
+    "idempotency_key": "c21da37e-9895-48e5-a801-b7db7d0d3f5d"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 07:11:07 - Payment status updated successfully for transaction_id: pi_3QKEFiExmAZQgYMT1Zn2kZDg
+2024-11-12 07:17:21 - {
+  "id": "evt_3QKELjExmAZQgYMT0QvOXfWv",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731395841,
+  "data": {
+    "object": {
+      "id": "pi_3QKELjExmAZQgYMT0k9XWhrc",
+      "object": "payment_intent",
+      "amount": 300000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKELjExmAZQgYMT0k9XWhrc_secret_2byPYwXbstyk0zWgxmqhfdpMD",
+      "confirmation_method": "automatic",
+      "created": 1731395839,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QKELjExmAZQgYMT03INa433",
+        "code": "card_declined",
+        "decline_code": "card_velocity_exceeded",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined for making repeated attempts too frequently or exceeding its amount limit.",
+        "payment_method": {
+          "id": "pm_1QKELkExmAZQgYMTIoKIbAgf",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "22222",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "athira",
+            "phone": "1222"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "pass"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2026,
+            "fingerprint": "LkNZEiYWgUB7uPYi",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "6975",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731395840,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QKELjExmAZQgYMT03INa433",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_pogbk6kK04pq22",
+    "idempotency_key": "60230d19-dabb-4538-8afa-1031e9905b3a"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-12 07:17:21 - Payment status updated successfully for transaction_id: pi_3QKELjExmAZQgYMT0k9XWhrc
+2024-11-12 07:17:46 - {
+  "id": "evt_3QKEM9ExmAZQgYMT0euO4ZTP",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731395866,
+  "data": {
+    "object": {
+      "id": "pi_3QKEM9ExmAZQgYMT0TPBd0xS",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKEM9ExmAZQgYMT0TPBd0xS_secret_5aAYRwpCpr0w4LBHZzkpLvW2T",
+      "confirmation_method": "automatic",
+      "created": 1731395865,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKEM9ExmAZQgYMT01gapALz",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKEMAExmAZQgYMTe8iLfMkp",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_8GidhkidwYmw58",
+    "idempotency_key": "de122925-fea9-4807-a614-f53d2ef3b9d8"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 07:17:46 - Payment status updated successfully for transaction_id: pi_3QKEM9ExmAZQgYMT0TPBd0xS
+2024-11-12 07:20:23 - {
+  "id": "evt_3QKEOgExmAZQgYMT0hIKfjUI",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731396023,
+  "data": {
+    "object": {
+      "id": "pi_3QKEOgExmAZQgYMT0gmGzkf6",
+      "object": "payment_intent",
+      "amount": 30000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 30000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKEOgExmAZQgYMT0gmGzkf6_secret_For760uOgmy0ONM0XnHTmbJvs",
+      "confirmation_method": "automatic",
+      "created": 1731396022,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKEOgExmAZQgYMT00s1B4SW",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKEOhExmAZQgYMTgkZHXpwv",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_TTDEAum9tb4ECG",
+    "idempotency_key": "9d8cd8a4-a3d8-405f-ac37-e748a0aede03"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 07:20:23 - Payment status updated successfully for transaction_id: pi_3QKEOgExmAZQgYMT0gmGzkf6
+2024-11-12 07:21:49 - {
+  "id": "evt_3QKEQ3ExmAZQgYMT0EBveTrq",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731396109,
+  "data": {
+    "object": {
+      "id": "pi_3QKEQ3ExmAZQgYMT0wF0GLPy",
+      "object": "payment_intent",
+      "amount": 40000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 0,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKEQ3ExmAZQgYMT0wF0GLPy_secret_Ctorw9qGB7Bd9e8Dj2JqIwEol",
+      "confirmation_method": "automatic",
+      "created": 1731396107,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": {
+        "charge": "ch_3QKEQ3ExmAZQgYMT0OqPLZpW",
+        "code": "incorrect_cvc",
+        "doc_url": "https://stripe.com/docs/error-codes/incorrect-cvc",
+        "message": "Your card's security code is incorrect.",
+        "param": "cvc",
+        "payment_method": {
+          "id": "pm_1QKEQ4ExmAZQgYMT8akQZXEu",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "22222",
+              "state": null
+            },
+            "email": "athirablindtex@gmail.com",
+            "name": "admin",
+            "phone": "111"
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": "pass",
+              "cvc_check": "fail"
+            },
+            "country": "US",
+            "display_brand": "visa",
+            "exp_month": 12,
+            "exp_year": 2026,
+            "fingerprint": "TZ6RWAX3LJs5iR9B",
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0127",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1731396108,
+          "customer": null,
+          "livemode": false,
+          "metadata": {
+          },
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "latest_charge": "ch_3QKEQ3ExmAZQgYMT0OqPLZpW",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "requires_payment_method",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_eklxjfV0ff2Niv",
+    "idempotency_key": "a76524b1-62b6-42a6-85e7-691026127c8f"
+  },
+  "type": "payment_intent.payment_failed"
+}
+2024-11-12 07:21:49 - Payment status updated successfully for transaction_id: pi_3QKEQ3ExmAZQgYMT0wF0GLPy
+2024-11-12 08:01:09 - {
+  "id": "evt_3QKF27ExmAZQgYMT1mLp2oJ9",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731398469,
+  "data": {
+    "object": {
+      "id": "pi_3QKF27ExmAZQgYMT1dvZ3ECk",
+      "object": "payment_intent",
+      "amount": 56000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 56000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKF27ExmAZQgYMT1dvZ3ECk_secret_Rcnxlo9dcPvahLSsYCKDuqlR3",
+      "confirmation_method": "automatic",
+      "created": 1731398467,
+      "currency": "gbp",
+      "customer": null,
+      "description": null,
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKF27ExmAZQgYMT1f8bLtqT",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKF28ExmAZQgYMTugbPJJPj",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_tt7NattKyN3Hag",
+    "idempotency_key": "324e7e7f-211b-4690-a587-b491af562aec"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 08:01:09 - Payment status updated successfully for transaction_id: pi_3QKF27ExmAZQgYMT1dvZ3ECk
+2024-11-12 09:43:10 - {
+  "id": "evt_3QKGcrExmAZQgYMT1XlIGciG",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731404590,
+  "data": {
+    "object": {
+      "id": "pi_3QKGcrExmAZQgYMT1SqLr5ji",
+      "object": "payment_intent",
+      "amount": 10000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 10000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKGcrExmAZQgYMT1SqLr5ji_secret_BhKPH9zDDpiG6RlZuW24AAnSx",
+      "confirmation_method": "automatic",
+      "created": 1731404589,
+      "currency": "gbp",
+      "customer": null,
+      "description": "TEST Description",
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKGcrExmAZQgYMT1kgq5E7J",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKGcrExmAZQgYMT9vaIPDNr",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_rAH2po4YguVAFL",
+    "idempotency_key": "04c0eec5-c328-4da8-8827-5426cf8f563d"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 09:43:10 - Payment status updated successfully for transaction_id: pi_3QKGcrExmAZQgYMT1SqLr5ji
+2024-11-12 10:05:21 - {
+  "id": "evt_3QKGyKExmAZQgYMT0JiO8Lfl",
+  "object": "event",
+  "api_version": "2024-10-28.acacia",
+  "created": 1731405921,
+  "data": {
+    "object": {
+      "id": "pi_3QKGyKExmAZQgYMT0fzOBuBR",
+      "object": "payment_intent",
+      "amount": 34578,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {
+        }
+      },
+      "amount_received": 34578,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic_async",
+      "client_secret": "pi_3QKGyKExmAZQgYMT0fzOBuBR_secret_kJquLux9erE71S7NnM9ZcGIyn",
+      "confirmation_method": "automatic",
+      "created": 1731405920,
+      "currency": "gbp",
+      "customer": null,
+      "description": "inv1232",
+      "invoice": null,
+      "last_payment_error": null,
+      "latest_charge": "ch_3QKGyKExmAZQgYMT0NYtVH1R",
+      "livemode": false,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1QKGyKExmAZQgYMTSaEjnOCM",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": "req_B7xxbwmjQvQWmt",
+    "idempotency_key": "3eb628ee-c9d4-492c-89ba-afa47318f453"
+  },
+  "type": "payment_intent.succeeded"
+}
+2024-11-12 10:05:21 - Payment status updated successfully for transaction_id: pi_3QKGyKExmAZQgYMT0fzOBuBR
